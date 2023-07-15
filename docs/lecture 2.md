@@ -85,12 +85,14 @@ switch (variable) {
   - `int a = 3 * 3.141;`
 - 强制转型
   - `float a = float(3) / 3.141;`
+
 **问题**：`float a = float(10/3); 和 float a = float(10) / float(3);`的结果一样吗?
 
 ### 二进制
 
 - 10进制 => 2进制
 - 2进制 => 10进制
+
 **问题**：为什么使用2进制而不是其他进制(如10进制，60进制）?
 
 ### 数据类型大小
@@ -168,12 +170,12 @@ void swap(int *a, int *b)
 
 ### 拓展
 
-排序
-bubble sort
-<https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/>
-<https://visualgo.net/en/sorting>
-<https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html>
-<https://sortvisualizer.com/bubblesort/>
+- 排序
+- bubble sort
+	- <https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/visualize/>
+	- <https://visualgo.net/en/sorting>
+	- <https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html>
+	- <https://sortvisualizer.com/bubblesort/>
 
 ``` cpp
 int arr[] = {1,3,2,4,6,2,4};
