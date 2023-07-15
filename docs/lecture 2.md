@@ -138,17 +138,17 @@ int main()
 // using reference
 void swap(int &a, int &b)
 {
-  int temp = a;
-  a = b;
-  b = temp;
+ int temp = a;
+ a = b;
+ b = temp;
 }
 
 // using pointer
 void swap(int *a, int *b)
 {
-  int temp = *a;
-  *a = *b;
-  *b = temp;
+ int temp = *a;
+ *a = *b;
+ *b = temp;
 }
 ```
 

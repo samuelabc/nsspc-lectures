@@ -61,9 +61,9 @@ using namespace std;
 
 // pass by value
 void swap_incorrect(int a, int b) {
-    int temp = a;
- a = b;
- b = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
 
 // using reference
