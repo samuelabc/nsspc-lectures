@@ -1,6 +1,7 @@
 ---
 layout: default
 title: lecture 3
+parent: Notes
 nav_order: 3
 ---
 
