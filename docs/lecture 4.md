@@ -33,17 +33,17 @@ nav_order: 4
 - bubble sort 逆序排序
 
 ``` cpp
-int arr[] = {1,3,2,4,6,2,4};
+int arr[] = {1, 3, 2, 4, 6, 2, 4};
 for (int i = 0; i < n - 1; i++)
-  {
-    for (int j = 0; j < n - i - 1; j++)
-    {
-      if (arr[j] < arr[j + 1])
-      {
-        swap(arr[j], arr[j + 1]);
-      }
-    }
-  }
+{
+ for (int j = 0; j < n - i - 1; j++)
+ {
+  if (arr[j] < arr[j + 1])
+  {
+   swap(arr[j], arr[j + 1]);
+  }
+ }
+}
 ```
 
 ## 本周内容
@@ -55,11 +55,10 @@ for (int i = 0; i < n - 1; i++)
   - 列（column）
 
 ``` cpp
-int array[3][5]
-{
- { 1, 2, 3, 4, 5 }, // row 0
- { 6, 7, 8, 9, 10 }, // row 1
- { 11, 12, 13, 14, 15 } // row 2
+int array[3][5]{
+ {1, 2, 3, 4, 5},   // row 0
+ {6, 7, 8, 9, 10},   // row 1
+ {11, 12, 13, 14, 15} // row 2
 };
 ```
 
@@ -74,9 +73,11 @@ int array[3][5]
 
 ``` cpp
 int N = 10;
-for(int i=1; i<N; i++){  //i (N-1) ==> O(N)
- for(int j=1; j<N; j++){ // i*1  ~  i*9 (N-1) ==> O(N)
-  cout << i*j << " "; // C ==> O(1)
+for (int i = 1; i < N; i++)
+{ // i (N-1) ==> O(N)
+ for (int j = 1; j < N; j++)
+ {            // i*1  ~  i*9 (N-1) ==> O(N)
+  cout << i * j << " "; // C ==> O(1)
  }
 }
 ```
