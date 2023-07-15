@@ -5,6 +5,14 @@ nav_order: 5
 ---
 
 # lecture 5
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+</details>
 
 ## 上周回顾
 - 多维数组 (multi-dimensional/nested array)

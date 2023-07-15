@@ -6,12 +6,24 @@ nav_order: 7
 
 # lecture 7
 
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+</details>
+
 ## 上周回顾
+
 - \<cstring>
 - \<string>
 
 ## 本周内容
+
 ### 函数
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -41,6 +53,7 @@ int main() {
 ```
 
 #### swap
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -48,51 +61,53 @@ using namespace std;
 // pass by value
 void swap_incorrect(int a, int b) {
     int temp = a;
-	a = b;
-	b = temp;
+ a = b;
+ b = temp;
 }
 
 // using reference
 void swap_using_reference(int &a, int &b)
 {
-	int temp = a;
-	a = b;
-	b = temp;
+ int temp = a;
+ a = b;
+ b = temp;
 }
 
 // using pointer
 void swap_using_pointer(int *a, int *b)
 {
-	int temp = *a;
-	*a = *b;
-	*b = temp;
+ int temp = *a;
+ *a = *b;
+ *b = temp;
 }
 
 int main()
 {
-	int a = 1;
-	int b = 2;
+ int a = 1;
+ int b = 2;
 
-	// swap_incorrect
-	swap_incorrect(a, b);
-	cout << a << " " << b << endl; // 1 2
-	
-	// swap using reference
-	swap_using_reference(a, b);
-	cout << a << " " << b << endl; // 2 1
+ // swap_incorrect
+ swap_incorrect(a, b);
+ cout << a << " " << b << endl; // 1 2
+ 
+ // swap using reference
+ swap_using_reference(a, b);
+ cout << a << " " << b << endl; // 2 1
 
-	// swap using pointer
-	swap_using_pointer(&a, &b);
-	cout << a << " " << b << endl; // 1 2
+ // swap using pointer
+ swap_using_pointer(&a, &b);
+ cout << a << " " << b << endl; // 1 2
 
-	// swap using std::swap
-	swap(a, b);
-	cout << a << " " << b << endl; // 2 1
+ // swap using std::swap
+ swap(a, b);
+ cout << a << " " << b << endl; // 2 1
 }
 ```
 
 ### 递归
+
 #### factorial
+
 ```cpp
 #include <iostream>
 
@@ -114,12 +129,13 @@ int main() {
   // calculate factorial with for loop
   int sum = 1;
   for (int i = n; i >= 0; i--) {
-	  sum *= n;
+   sum *= n;
   }
 }
 ```
 
 #### Fibonacci
+
 ```cpp
 #include <iostream>
 
@@ -142,13 +158,14 @@ int main() {
 }
 ```
 
-
 #### 如何创建cpp文档
+
 1. 打开记事本
 2. 输入内容
 3. save as .cpp
 
 #### 配置本地环境
+
 - vscode
-	- https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites
-	- https://www.youtube.com/watch?v=9VE7p-he4fA
+  - <https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites>
+  - <https://www.youtube.com/watch?v=9VE7p-he4fA>

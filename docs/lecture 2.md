@@ -5,6 +5,7 @@ nav_order: 2
 ---
 
 # lecture 2
+
 {: .no_toc }
 
 <details open markdown="block">
