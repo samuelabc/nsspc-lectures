@@ -159,13 +159,13 @@ int main() {
 }
 ```
 
-#### 如何创建cpp文档
+### 如何创建cpp文档
 
 1. 打开记事本
 2. 输入内容
 3. save as .cpp
 
-#### 配置本地环境
+### 配置本地环境
 
 - vscode
   - <https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites>
