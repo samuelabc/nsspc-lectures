@@ -1,3 +1,11 @@
+---
+layout: default
+title: lecture 2
+nav_order: 1
+---
+
+# lecture 2
+
 ## 上周回顾
 ``` cpp
 #include<iostream>
