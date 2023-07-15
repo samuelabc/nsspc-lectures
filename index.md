@@ -6,4 +6,5 @@ description: "lecture notes for nsspc training course"
 permalink: /
 ---
 
-lecture notes for nsspc training course
+Lecture notes for nsspc training course.
+
