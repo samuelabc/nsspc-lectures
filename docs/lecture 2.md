@@ -5,7 +5,6 @@ nav_order: 2
 ---
 
 # lecture 2
-
 {: .no_toc }
 
 <details open markdown="block">
@@ -135,7 +134,7 @@ int main()
 
 进阶版
 
-```cpp
+``` cpp
 // using reference
 void swap(int &a, int &b)
 {
