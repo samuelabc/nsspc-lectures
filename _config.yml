@@ -3,6 +3,7 @@ description: NSSPC lecture notes
 theme: just-the-docs
 
 url: https://samuelabc.github.io
+color_scheme: dark
 
 aux_links:
   Template Repository: https://samuelabc.github.io/nsspc-lectures
