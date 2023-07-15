@@ -8,3 +8,6 @@ permalink: /
 
 Lecture notes for nsspc training course.
 
+## Resources
+- [NSSPC official website](https://nsspc.io/)
+- [codingbar student portal](https://app.codingbar.ai/)
