@@ -13,6 +13,8 @@ nav_order: 6
     Table of contents
   </summary>
   {: .text-delta }
+- TOC
+{:toc}
 </details>
 
 ## 上周回顾
