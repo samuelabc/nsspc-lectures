@@ -69,39 +69,39 @@ void swap_incorrect(int a, int b) {
 // using reference
 void swap_using_reference(int &a, int &b)
 {
- int temp = a;
- a = b;
- b = temp;
+  int temp = a;
+  a = b;
+  b = temp;
 }
 
 // using pointer
 void swap_using_pointer(int *a, int *b)
 {
- int temp = *a;
- *a = *b;
- *b = temp;
+  int temp = *a;
+  *a = *b;
+  *b = temp;
 }
 
 int main()
 {
- int a = 1;
- int b = 2;
+  int a = 1;
+  int b = 2;
 
- // swap_incorrect
- swap_incorrect(a, b);
- cout << a << " " << b << endl; // 1 2
- 
- // swap using reference
- swap_using_reference(a, b);
- cout << a << " " << b << endl; // 2 1
+  // swap_incorrect
+  swap_incorrect(a, b);
+  cout << a << " " << b << endl; // 1 2
 
- // swap using pointer
- swap_using_pointer(&a, &b);
- cout << a << " " << b << endl; // 1 2
+  // swap using reference
+  swap_using_reference(a, b);
+  cout << a << " " << b << endl; // 2 1
 
- // swap using std::swap
- swap(a, b);
- cout << a << " " << b << endl; // 2 1
+  // swap using pointer
+  swap_using_pointer(&a, &b);
+  cout << a << " " << b << endl; // 1 2
+
+  // swap using std::swap
+  swap(a, b);
+  cout << a << " " << b << endl; // 2 1
 }
 ```
 
