@@ -3,4 +3,6 @@ title: Home
 layout: home
 ---
 
-testing
+lecture notes for nsspc training course
+
+
