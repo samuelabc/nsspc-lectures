@@ -5,8 +5,11 @@ nav_order: 2
 ---
 
 # lecture 2
+{:toc}
 
 ## 上周回顾
+{:toc}
+
 ``` cpp
 #include<iostream>
 using namespace std;
