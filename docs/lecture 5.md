@@ -1,3 +1,11 @@
+---
+layout: default
+title: lecture 5
+nav_order: 5
+---
+
+# lecture 5
+
 ## 上周回顾
 - 多维数组 (multi-dimensional/nested array)
 - 巢状循环 (nested loop)

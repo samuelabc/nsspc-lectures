@@ -1,3 +1,11 @@
+---
+layout: default
+title: lecture 7
+nav_order: 7
+---
+
+# lecture 7
+
 ## 上周回顾
 - \<cstring>
 - \<string>

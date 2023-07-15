@@ -1,3 +1,11 @@
+---
+layout: default
+title: lecture 6
+nav_order: 6
+---
+
+# lecture 6
+
 ## 上周回顾
 - 指针
 - 参考/引用

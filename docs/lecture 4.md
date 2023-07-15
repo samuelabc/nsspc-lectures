@@ -1,3 +1,11 @@
+---
+layout: default
+title: lecture 4
+nav_order: 4
+---
+
+# lecture 4
+
 ## 上周回顾
 - 数据结构
 	- 数组
