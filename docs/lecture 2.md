@@ -5,11 +5,14 @@ nav_order: 2
 ---
 
 # lecture 2
+{: .no_toc }
+
 <details open markdown="block">
   <summary>
     Table of contents
   </summary>
   {: .text-delta }
+</details>
 
 ## 上周回顾
 
