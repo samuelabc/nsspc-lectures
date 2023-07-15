@@ -5,6 +5,7 @@ nav_order: 5
 ---
 
 # lecture 5
+
 {: .no_toc }
 
 <details open markdown="block">
@@ -35,17 +36,14 @@ nav_order: 5
   - <https://cppbyexample.com/why_references.html>
 
 1. 通过引用传递参数
-
-- 通过值传递参数 vs 通过引用传递参数 ?
-- 通过**值**传递参数(pass by value)：复制了一个新的变量，新的变量和旧的变量分别存储在不同的内存空间。
-- C++ default 的行为是：通过**值**传递参数。
-- 通过**引用**传递参数(pass by reference)：两个变量存储在同一个内存空间
-- 在函数参数写上`&`
-- 好处：提高处理速度，减少不必要的额外空间
-
+	- 通过值传递参数 vs 通过引用传递参数 ?
+	- 通过**值**传递参数(pass by value)：复制了一个新的变量，新的变量和旧的变量分别存储在不同的内存空间。
+	- C++ default 的行为是：通过**值**传递参数。
+	- 通过**引用**传递参数(pass by reference)：两个变量存储在同一个内存空间
+	- 在函数参数写上`&`
+	- 好处：提高处理速度，减少不必要的额外空间
 2. 给变量取别名(alias)
-
-- 好处：提高代码可读性
+	- 好处：提高代码可读性
 
 ``` cpp
 #include <iostream>
