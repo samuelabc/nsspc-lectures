@@ -1,3 +1,11 @@
+---
+layout: default
+title: lecture 3
+nav_order: 3
+---
+
+# lecture 3
+
 ## 上周回顾
 - 条件判断：if else结构， switch结构
 - 循环：for结构，while结构
