@@ -59,6 +59,9 @@ int main() {
   std::cout << origin.x << ", " << 
                origin.y << ", " << 
                origin.z << "\n";
+  origin.x = 10;
+  origin.y = 100;
+  origin.z = 5;
 
   Point elsewhere{3.0f, 4.0f, 5.0f};
   std::cout << elsewhere.x << ", " << 
@@ -88,6 +91,7 @@ struct Distance {
 };
 
 int main() {
+ int *p;
     Distance *ptr, d;
 
     ptr = &d;
@@ -152,8 +156,8 @@ int main() {
 
 ```cpp
 #define N 10
-const int MAX 1000000
-const double EPS 1e-8
+const int MAX = 1000000
+const double EPS = 1e-8
 
 // loops
 #define FOR(i, a, b) for (int i = (a); i < (b); ++i)
@@ -167,25 +171,23 @@ const double EPS 1e-8
 ### 标准模板库 Standard Template Library(STL)
 
 ```cpp
-#include <iostream>
-#include <iomanip>
+#include <iostream> // cin, cout, fixed
+#include <iomanip> // setprecision
 
-#include <cmath>
+#include <cmath> // abs, pow, ceil, round, floor
 
-#include <cstring>
-#include <string>
+#include <cstring> // c-style string
+#include <string> // c++ string
 
-#include <algorithm>
-#include <functional>
+#include <algorithm> // sort, min, max, min_element, max_element
+#include <functional> // greater
 
-#include <utility>   // pair, make_pair
+#include <utility> // pair, make_pair
 #include <vector>
 #include <set>
 #include <map>
 
 using namespace std;
-
-
 ```
 
 ```cpp
@@ -208,8 +210,10 @@ using namespace std;
 #include <utility>      // std::pair, std::make_pair
 #include <string>       // std::string
 #include <iostream>     // std::cout
+using namespace std;
 
 int main () {
+  pair<string, double> product("productA", 10.12);
   std::pair <std::string,double> product1;                     // default constructor
   std::pair <std::string,double> product2 ("tomatoes",2.30);   // value init
   std::pair <std::string,double> product3 (product2);          // copy constructor
@@ -236,6 +240,10 @@ int main () {
 #include <iostream>
 
 int main() {
+  vector<pair<string, double>> v;
+  pair<string, double> p("A", 10);
+  v.push_back(p);
+
   std::vector<int> vec{1, 2, 3};
   vec.push_back(4);
 
@@ -268,6 +276,10 @@ struct ShorterString {
 };
 
 int main() {
+  set<string> s;
+  s.insert("a");
+  s.insert("a");
+  
   std::set<string, ShorterString> tags{
     {"wild"},
     {"funny"},
@@ -300,6 +312,8 @@ struct ShorterString {
 };
 
 int main() {
+  map<string, vector<pair<string, int>>> m;
+
   std::map<string, int, ShorterString> persons{
     {"Maria", 42},
     {"Nushi", 12},
@@ -330,6 +344,7 @@ int main () {
   std::cout << std::setprecision(9) << f << '\n'; //3.14159
   std::cout << std::fixed;
   std::cout << std::setprecision(5) << f << '\n'; //3.14159
+  std::cout << std::setprecision(6) << f << '\n'; //3.141590
   std::cout << std::setprecision(9) << f << '\n'; //3.141590000
 
  
